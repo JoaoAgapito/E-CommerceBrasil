@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">E-commerce Brasil</string>
+    <string name="title1">Microsoft Xbox Series S 512GB Standard cor branco</string>
+    <string name="price1">R$ 2.299</string>
+    <string name="title2">Console Sony Playstation 5 + Horizon Forbidden West</string>
+    <string name="price2">R$ 4.749</string>
+    <string name="title3">Headset Gamer HyperX Cloud Stinger, Drivers 50mm, Múltiplas Plataformas, P2 e P3 - HX-HSCS-BK/NA</string>
+    <string name="price3">R$ 249,90</string>
+    <string name="title4">SSD Kingston A400, 240GB, SATA, Leitura 500MB/s, Gravação 350MB/s - SA400S37/240G</string>
+    <string name="price4">R$ 179,90</string>
+    <string name="title5">Monitor Gamer LG Ultra Gear 28\' IPS, 144 Hz, Full HD</string>
+    <string name="price5">R$ 1.299</string>
+    <string name="title6">Water Cooler Gigabyte Aorus Liquid Cooler 240, 240mm</string>
+    <string name="price6">R$ 1.059</string>
+    <string name="title_activity_main_item3">MainActivityItem3</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

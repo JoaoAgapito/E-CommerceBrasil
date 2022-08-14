@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4323232">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="498dp"
+        android:layout_height="627dp"
+        android:src="@drawable/ic_detail_item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="208dp"
+        android:layout_height="223dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_monitor_gamer_sem_fundo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/main_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/logo_item"
+            android:layout_width="122dp"
+            android:layout_height="47dp"
+            android:src="@drawable/ic_e_commmerce_sem_fundo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua loja de compra e venda 100% online"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/main_logo"
+            app:layout_constraintStart_toEndOf="@+id/logo_item"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="5dp"
+        android:background="#B4194F88"
+        android:text="@string/title5"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#B4194F88"
+        android:text="Informações do Produto:"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:background="#B4194F88"
+        android:text="Monitor Gamer LG 23,8 Full HD 144Hz 1MS hdmi dp ips hdr Freesync 24GN600-B projetado para velocidade incrível Com ips de 1ms comparável à velocidade tn, fornecendo a imagem residual minimizada e um tempo de resposta rápido, permite que você desfrute de um desempenho de jogo totalmente novo. movimento de jogo fluido Uma velocidade ultra-rápida de 144 Hz permite que os jogadores vejam o próximo quadro rapidamente e faz com que a imagem apareça suavemente. Os jogadores podem responder rapidamente aos oponentes e mirar no alvo facilmente. sinta O combate real com cores verdadeiras Este monitor suporta HDR10 com sRGB 99 (Typ. ) Permitindo imersão visual realista com cores ricas e contraste. Independentemente do campo de batalha, pode ajudar os jogadores a ver todas as cores dramáticas que os desenvolvedores do jogo pretendiam. reaja mais rápido aos oponentes Minimize o atraso de entrada com Dynamic Action Sync para que os jogadores possam capturar cada momento em tempo real. ataque primeiro no escuro Os jogadores podem evitar que os atiradores se escondam nos lugares mais escuros e escapar rapidamente das situações quando o flash explode. especificações: Tamanho: 23,8 - 60,4cm Resolução: 1920 x 1080 Tipo de painel: ips Proporção da tela: 16:9 Pixel Pitch: 0,2745 x 0,2745 mm Brilho (mín. ): 240 cd/m2 Brilho (típico): 300 cd/m2 Gama de cores (mín. ): sRGB 97 (CIE1931) Gama de cores (típica): sRGB 99 (CIE1931) Profundidade da cor (número de cores): 16,7M Relação de contraste (mín. ): 700: 1 Relação de contraste (típico): 1000: 1 Tempo de resposta: 1ms (GtG e mais rápido) Ângulo de visão (CR10): 178º (r/l), 178º (u/d) Tratamento da superfície: Anti-reflexo hdr 10: Sim Efeito hdr: Sim Calibrado de cor: Sim Flicker seguro: Sim Modo Leitor: Sim amd FreeSync: Sim (Premium) FreeSync (Low Frame Conpensation): Sim Estabilizador Preto: Sim Sincronização de ação dinâmica: Sim Crosshair: Sim Controle na tela (lg Screen Manager): Sim Economia de energia inteligente: Sim Modelo Alimentação: Externa (Adaptador) Entrada ac: 100-240 Vca, 50/60 Hz Consumo de energia (típico): 32W Consumo de energia (máx. ): 34W Consumo de energia (modo de espera): Menos de 0,5 W Consumo de energia (dc desligado): Menos de 0,3 W hdmi: Sim (2ea) hdmi "
+        android:maxLines="14"
+        android:ellipsize="end"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="COMPRAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_floating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#ff669900"
+        android:src="@drawable/ic_carrinho"
+        android:tintMode="screen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="240dp"
+        android:layout_marginEnd="136dp"
+        android:text="@string/price5"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="20dp"
+        android:text="Valor:"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:text="Até 12x S/ juros no cartão"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
